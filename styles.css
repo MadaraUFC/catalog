@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007BFF, #FF69B4); /* Blue to Pink gradient */
+    margin: 0;
+    padding: 20px;
+    color: white; /* Change text color for better contrast */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF69B4; /* Pink color for buttons */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF1493; /* Darker pink on hover */
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.item {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333; /* Darker text for item titles */
+}
+
+.item p {
+    margin: 0 0 10px;
+    color: #555; /* Darker text for item descriptions */
+}
+
+.item span {
+    font-weight: bold;
+}
