@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+        <div class="filters">
+            <button onclick="filterItems('all')">All</button>
+            <button onclick="filterItems('electronics')">Electronics</button>
+            <button onclick="filterItems('clothing')">Clothing</button>
+            <button onclick="filterItems('accessories')">Accessories</button>
+        </div>
+    </header>
+    <main>
+        <div class="catalog" id="catalog">
+            <div class="item electronics">
+                <h2>Smartphone</h2>
+                <p>Latest model with high performance.</p>
+                <span>$699</span>
+            </div>
+            <div class="item clothing">
+                <h2>T-Shirt</h2>
+                <p>Comfortable cotton t-shirt.</p>
+                <span>$19.99</span>
+            </div>
+            <div class="item accessories">
+                <h2>Headphones</h2>
+                <p>Noise-canceling over-ear headphones.</p>
+                <span>$299</span>
+            </div>
+            <div class="item electronics">
+                <h2>Laptop</h2>
+                <p>Powerful laptop for professionals.</p>
+                <span>$999</span>
+            </div>
+            <div class="item clothing">
+                <h2>Jacket</h2>
+                <p>Stylish winter jacket.</p>
+                <span>$89.99</span>
+            </div>
+            <div class="item accessories">
+                <h2>Smartwatch</h2>
+                <p>Track your fitness and health.</p>
+                <span>$199</span>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
